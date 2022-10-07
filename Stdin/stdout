@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public void Solutio(int num1,double num2,String name)
+    {
+            System.out.println("String: "+name);
+            System.out.println("Double: "+num2);
+           System.out.println("Int: "+num1);
+            
+              
+             
+             
+    }
+    
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+         
+          Solution  ob = new Solution();
+          String name;
+          int num1;
+          double num2;
+          Scanner ob1 = new Scanner(System.in);
+          num1 = ob1.nextInt();
+          num2 = ob1.nextDouble();
+         String name1 =  ob1.nextLine();
+          name = ob1.nextLine();
+          ob.Solutio(num1,num2,name);
+        //  System.out.println(name);
+ 
+    }
+}
